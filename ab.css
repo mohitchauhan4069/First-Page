@@ -1,0 +1,148 @@
+#m1{
+    color: blue;
+    padding-left: 200px;
+    text-align: left;
+    }		
+#m2{
+
+    color:black;
+    padding-left: 200px;
+}
+.button1{
+    border:none;
+    background-color: darkblue;
+    color:white;
+    text-align: center;
+    margin-left: 300px;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.button2{
+    border:none;
+    background-color: red;
+    color:white;
+    text-align: center;
+    margin-left: 180px;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.img1
+{
+
+height:146px;
+width:154px;
+margin-left:-28px;
+margin-top: -45px;
+ 
+
+}
+
+body
+{
+
+background-color: rgb(187, 240, 231);
+
+}
+
+.sidebar {
+height: 100%;
+width: 160px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #111;
+padding-top: 45px;
+}
+
+.sidebar a {
+padding: 15px 15px 10px 6px;
+text-decoration: none;
+font-size: 17px;
+color: #818181;
+display: block;
+}
+
+.sidebar a:hover {
+color: black;
+background-color: #C4F5D2;
+}
+
+.main {
+margin-left: 160px; /* Same as the width of the sidenav */
+padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+.sidebar {padding-top: 15px;}
+.sidebar a {font-size: 18px;}
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.button3{
+background-color:lightgreen; border-color: darkgreen;  padding: 14px;
+font-size: 12px;
+border-width: 4px;
+margin-left: 1200px;
+text-align: center;
+margin-top: -50px;
+
+}
+
+.button4{
+background-color:lightgreen; border-color: darkgreen;  padding: 16px;
+font-size: 12px;
+border-width: 2px;
+margin-left: 1100px;
+text-align: center;
+
+}
+
+
+.container {
+position: relative;
+margin-left: 30px;
+width: 70px;
+height: 70px;
+margin-bottom: 30px;
+}
+
+
+img { 
+width: 100%;
+height: auto;
+}
+
+
+.text{
+height: 25px;
+width: 300px;
+}
+.a1 i{
+margin-left: 200px;
+font-size: 30px;
+
+}
+.a1{
+    background-color: rgb(237, 243, 243);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    
+}
+.a2{
+    float: right;
+}
+.a2 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
